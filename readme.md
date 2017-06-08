@@ -1,4 +1,4 @@
-# Tensorflow Hackeve
+# Tensorflow Meetup
 
 Repository for the TensorFlow Meetup by inovex GmbH
 
