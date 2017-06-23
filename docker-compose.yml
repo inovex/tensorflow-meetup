@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+  jupyter:
+    build: jupyter/
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    networks:
+      - tf
+
+networks:
+
+  tf:
+    driver: bridge
